@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding: 20px 100px;
+    background-color: #1C2B35;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.header>nav li {
+    display: inline;
+    margin: 0px 20px;
+}
+
+.header>nav li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}

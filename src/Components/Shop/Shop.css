@@ -1,0 +1,17 @@
+.shop_container {
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    /* padding: 50px; */
+}
+
+.products_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin: 50px;
+}
+
+.card {
+    height: 550px;
+}
